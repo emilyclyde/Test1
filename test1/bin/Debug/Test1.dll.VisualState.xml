@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1011]C:\Users\Emily\Desktop\Test1\test1\bin\Debug\Test1.dll</TopNode>
-  <SelectedNode>[0-1011]C:\Users\Emily\Desktop\Test1\test1\bin\Debug\Test1.dll</SelectedNode>
+  <TopNode>[0-1011]C:\Users\Emily\Documents\GitHub\Test1\test1\bin\Debug\Test1.dll</TopNode>
+  <SelectedNode>[0-1011]C:\Users\Emily\Documents\GitHub\Test1\test1\bin\Debug\Test1.dll</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1011]C:\Users\Emily\Desktop\Test1\test1\bin\Debug\Test1.dll" Expanded="true" />
+    <Node UniqueName="[0-1011]C:\Users\Emily\Documents\GitHub\Test1\test1\bin\Debug\Test1.dll" Expanded="true" />
     <Node UniqueName="[0-1012]ATM_Application" Expanded="true" />
     <Node UniqueName="[0-1013]ATM_Application.UnitTests" Expanded="true" />
     <Node UniqueName="[0-1000]ATM_Application.UnitTests.AccountTest" Expanded="true" />
