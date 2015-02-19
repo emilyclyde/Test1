@@ -1,0 +1,7 @@
+C:\Users\nwtech\Desktop\Test1\Test1\obj\Debug\Test1.csprojResolveAssemblyReference.cache
+C:\Users\nwtech\Desktop\Test1\Test1\bin\Debug\Test1.dll
+C:\Users\nwtech\Desktop\Test1\Test1\bin\Debug\Test1.pdb
+C:\Users\nwtech\Desktop\Test1\Test1\obj\Debug\Test1.dll
+C:\Users\nwtech\Desktop\Test1\Test1\obj\Debug\Test1.pdb
+C:\Users\nwtech\Desktop\Test1\Test1\bin\Debug\nunit.framework.dll
+C:\Users\nwtech\Desktop\Test1\Test1\bin\Debug\nunit.framework.xml

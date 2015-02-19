@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Emily\Desktop\Test1\test1\bin\Debug\Test1.dll" total="9" errors="0" failures="4" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-19" time="12:09:42">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="EMILY" user="Emily" user-domain="EMILY" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Emily\Desktop\Test1\test1\bin\Debug\Test1.dll" executed="True" result="Failure" success="False" time="1.477" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ATM_Application" executed="True" result="Failure" success="False" time="1.389" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UnitTests" executed="True" result="Failure" success="False" time="1.388" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="AccountTest" executed="True" result="Failure" success="False" time="1.327" asserts="0">
+                <results>
+                  <test-case name="ATM_Application.UnitTests.AccountTest.CheckAccountNum" executed="True" result="Success" success="True" time="0.140" asserts="1" />
+                  <test-case name="ATM_Application.UnitTests.AccountTest.CheckBalance" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                  <test-case name="ATM_Application.UnitTests.AccountTest.DepositFunds" executed="True" result="Failure" success="False" time="0.259" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: 1100
+  But was:  <ATM_Application.Account>
+]]></message>
+                      <stack-trace><![CDATA[at ATM_Application.UnitTests.AccountTest.DepositFunds() in c:\Users\nwtech\Desktop\Test1\Test1\AccountTest.cs:line 47
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ATM_Application.UnitTests.AccountTest.DepositFundsNeg" executed="True" result="Failure" success="False" time="0.004" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: 1000
+  But was:  <ATM_Application.Account>
+]]></message>
+                      <stack-trace><![CDATA[at ATM_Application.UnitTests.AccountTest.DepositFundsNeg() in c:\Users\nwtech\Desktop\Test1\Test1\AccountTest.cs:line 55
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ATM_Application.UnitTests.AccountTest.WithdrawFunds" executed="True" result="Success" success="True" time="0.041" asserts="1" />
+                  <test-case name="ATM_Application.UnitTests.AccountTest.WithdrawFundsInsuffFunds" executed="True" result="Failure" success="False" time="0.004" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: 1000
+  But was:  <ATM_Application.Account>
+]]></message>
+                      <stack-trace><![CDATA[at ATM_Application.UnitTests.AccountTest.WithdrawFundsInsuffFunds() in c:\Users\nwtech\Desktop\Test1\Test1\AccountTest.cs:line 74
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ATM_Application.UnitTests.AccountTest.WithdrawFundsNeg" executed="True" result="Failure" success="False" time="0.004" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: 1000
+  But was:  <ATM_Application.Account>
+]]></message>
+                      <stack-trace><![CDATA[at ATM_Application.UnitTests.AccountTest.WithdrawFundsNeg() in c:\Users\nwtech\Desktop\Test1\Test1\AccountTest.cs:line 82
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="CustomerTest" executed="True" result="Success" success="True" time="0.023" asserts="0">
+                <results>
+                  <test-case name="ATM_Application.UnitTests.CustomerTest.PinDoesNotMatch" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                  <test-case name="ATM_Application.UnitTests.CustomerTest.PinMatch" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
